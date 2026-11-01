@@ -1,0 +1,32 @@
+# ===== 构建产物 =====
+*.iml
+.gradle/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ===== 本地 SDK 路径（含绝对路径，不入库）=====
+local.properties
+
+# ===== 签名相关：密钥文件与含密码的属性文件，绝不入库 =====
+*.keystore
+*.jks
+keystore.properties
+
+# ===== 混淆映射（含还原堆栈信息，不入库）=====
+mapping-*.txt
+
+# ===== 工具脚本的临时产物 =====
+tools/__pycache__/
+tools/kws_cache/
+tools/*.log
+
+# ===== IDE =====
+.idea/
+.DS_Store
+
+# ===== 本地构建输出（脚本产物，不入库）=====
+/dist/
+*zZ_LATEST*.apk

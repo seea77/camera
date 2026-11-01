@@ -1,0 +1,7 @@
+# 统一换行符为 LF，避免 Windows / 协作者之间出现差异噪声
+* text=auto eol=lf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.tflite binary
+*.keystore binary
