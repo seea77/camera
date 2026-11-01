@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 界面配色方案的可换肤属性：布局 / drawable / 代码统一引用这些属性 -->
+    <attr name="uiBg" format="color" />
+    <attr name="uiPanel" format="color" />
+    <attr name="uiPanelSolid" format="color" />
+    <attr name="uiStroke" format="color" />
+    <attr name="uiText" format="color" />
+    <attr name="uiTextDim" format="color" />
+    <attr name="uiChip" format="color" />
+    <attr name="uiAccent" format="color" />
+    <attr name="uiAccentOn" format="color" />
+    <attr name="uiOk" format="color" />
+    <attr name="uiWarn" format="color" />
+    <attr name="uiLink" format="color" />
+    <attr name="uiScrim" format="color" />
+    <attr name="uiCore" format="color" />
+    <attr name="uiCoreText" format="color" />
+</resources>

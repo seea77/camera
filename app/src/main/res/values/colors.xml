@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- 启动图标底色：绿色圆形（与 make_icon.py 生成的 PNG 一致） -->
+    <color name="ic_launcher_bg">#FF33CC66</color>
+
+    <!-- ===== 方案 1：琥珀夜行（默认，原配色） ===== -->
+    <color name="amber_bg">#FF101114</color>
+    <color name="amber_panel">#CC15181D</color>
+    <color name="amber_panelSolid">#FF15181D</color>
+    <color name="amber_stroke">#33FFFFFF</color>
+    <color name="amber_text">#FFFFFFFF</color>
+    <color name="amber_textDim">#B3FFFFFF</color>
+    <color name="amber_chip">#FF232831</color>
+    <color name="amber_accent">#FFFFC24B</color>
+    <color name="amber_accentOn">#FF000000</color>
+    <color name="amber_ok">#FF4ADE80</color>
+    <color name="amber_warn">#FFFF7A6B</color>
+    <color name="amber_link">#FF4EA1FF</color>
+    <color name="amber_scrim">#66000000</color>
+    <color name="amber_core">#FFFFFFFF</color>
+    <color name="amber_coreText">#FF000000</color>
+
+    <!-- 兼容旧引用的兜底色（换肤后由 ui* 属性接管） -->
+    <color name="bg">#FF101114</color>
+    <color name="panel">#CC15181D</color>
+    <color name="panelSolid">#FF15181D</color>
+    <color name="stroke">#33FFFFFF</color>
+    <color name="accent">#FFFFC24B</color>
+    <color name="accentDim">#66FFC24B</color>
+    <color name="ok">#FF4ADE80</color>
+    <color name="warn">#FFFF7A6B</color>
+    <color name="textDim">#B3FFFFFF</color>
+    <color name="chipBg">#FF232831</color>
+    <color name="link">#FF4EA1FF</color>
+</resources>

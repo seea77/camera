@@ -1,0 +1,13 @@
+{
+  "SR": 16000,
+  "WIN": 16000,
+  "FRAME_LEN": 400,
+  "FRAME_STEP": 160,
+  "N_FFT": 512,
+  "N_BINS": 257,
+  "N_MEL": 40,
+  "F_MIN": 20.0,
+  "F_MAX": 8000.0,
+  "N_FRAMES": 98,
+  "N_CLASSES": 5
+}

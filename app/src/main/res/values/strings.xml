@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">羽光相机</string>
+    <string name="shutter">拍摄</string>
+    <string name="record_hint">长按录像</string>
+    <string name="gallery">素材库</string>
+    <string name="flip">翻转镜头</string>
+    <string name="grid">构图</string>
+    <string name="flash">闪光灯</string>
+    <string name="manual">手动</string>
+    <string name="auto">自动</string>
+    <string name="coach">参数解读</string>
+    <string name="shot">景别</string>
+    <string name="move">运镜</string>
+    <string name="ratio">画幅</string>
+    <string name="permission_denied">需要相机与麦克风权限才能使用</string>
+    <string name="saved">已保存到相册</string>
+    <string name="empty_gallery">还没有素材，去拍点东西吧</string>
+</resources>

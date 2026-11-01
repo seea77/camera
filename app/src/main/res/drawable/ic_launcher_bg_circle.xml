@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自适应图标背景：绿色圆形，四角透明。
+     用 oval 而非纯色矩形，是为了让图标在各厂商 launcher 上都呈现圆形外观
+     （纯色矩形会被 launcher 按自己的遮罩裁成圆角方形）。 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/ic_launcher_bg" />
+</shape>

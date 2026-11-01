@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 启动封面图标：圆形（黑底 + 前景 logo），替代系统默认方形 launcher 图标 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/ic_launcher_bg" />
+        </shape>
+    </item>
+    <item
+        android:drawable="@mipmap/ic_launcher_fg"
+        android:gravity="center" />
+</layer-list>

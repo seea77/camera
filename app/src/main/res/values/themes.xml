@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===== 基色：琥珀夜行（默认） ===== -->
+    <style name="Theme.ShotLab" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <item name="colorPrimary">@color/amber_accent</item>
+        <item name="colorOnPrimary">@color/amber_accentOn</item>
+        <item name="android:colorAccent">@color/amber_accent</item>
+
+        <item name="uiBg">@color/amber_bg</item>
+        <item name="uiPanel">@color/amber_panel</item>
+        <item name="uiPanelSolid">@color/amber_panelSolid</item>
+        <item name="uiStroke">@color/amber_stroke</item>
+        <item name="uiText">@color/amber_text</item>
+        <item name="uiTextDim">@color/amber_textDim</item>
+        <item name="uiChip">@color/amber_chip</item>
+        <item name="uiAccent">@color/amber_accent</item>
+        <item name="uiAccentOn">@color/amber_accentOn</item>
+        <item name="uiOk">@color/amber_ok</item>
+        <item name="uiWarn">@color/amber_warn</item>
+        <item name="uiLink">@color/amber_link</item>
+        <item name="uiScrim">@color/amber_scrim</item>
+        <item name="uiCore">@color/amber_core</item>
+        <item name="uiCoreText">@color/amber_coreText</item>
+    </style>
+
+    <!-- 启动封面：纯黑背景 + 纯黑图标。
+         ColorOS 会强制把 splash 图标塞进 squircle 圆角容器（与桌面图标同款）：
+         - 给正圆图 → 显示成绿色圆角方（用户实测）
+         - 不给图 → 系统 fallback 默认方形图标（先方后圆，更糟）
+         故给一张纯黑不透明图：系统怎么裁都是纯黑，与纯黑背景无缝融为一体、肉眼不可见，
+         启动画面等效纯黑；正圆 logo 由 Activity 首帧的全屏黑底图层绘制，形状完全自控。 -->
+    <style name="Theme.ShotLab.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_splash_black</item>
+        <item name="postSplashScreenTheme">@style/Theme.ShotLab</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+</resources>

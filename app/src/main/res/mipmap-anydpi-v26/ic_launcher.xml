@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 背景用圆形而非纯色矩形：保证各厂商 launcher 上都呈现圆形外观 -->
+    <background android:drawable="@drawable/ic_launcher_bg_circle" />
+    <foreground android:drawable="@mipmap/ic_launcher_fg" />
+</adaptive-icon>

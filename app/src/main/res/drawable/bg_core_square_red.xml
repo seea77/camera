@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- 录制中：拍摄键中心变为红色圆角方块，与外圈红环呼应 -->
+    <solid android:color="?attr/uiWarn" />
+    <corners android:radius="6dp" />
+</shape>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ParamChip">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_chip</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/uiText</item>
+    </style>
+
+    <style name="ParamChip.Accent">
+        <item name="android:textColor">?attr/uiAccent</item>
+    </style>
+
+    <style name="ParamChip.Save">
+        <item name="android:textColor">?attr/uiOk</item>
+    </style>
+
+    <style name="ParamChip.Preset">
+        <item name="android:textColor">?attr/uiLink</item>
+    </style>
+
+</resources>

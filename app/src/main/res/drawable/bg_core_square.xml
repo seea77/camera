@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- 录制中：拍摄键中心变为白色圆角方块 -->
+    <solid android:color="#FFFFFF" />
+    <corners android:radius="6dp" />
+</shape>
